@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/zhang2/ZJGAlert'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhang1314520648@163.com' => 'zhang1314520648@163.com' }
+  s.author           = { 'zjg' => 'zhang1314520648@163.com' }
   s.source           = { :git => 'https://github.com/zhang2/ZJGAlert.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
