@@ -1,0 +1,6 @@
+framework module ZJGAlert {
+  umbrella header "ZJGAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

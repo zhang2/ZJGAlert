@@ -1,0 +1,22 @@
+{
+  "name": "ZJGAlert",
+  "version": "0.1.0",
+  "summary": "A short description of ZJGAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhang1314520648@163.com/ZJGAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhang1314520648@163.com": "zhang1314520648@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhang1314520648@163.com/ZJGAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZJGAlert/Classes/**/*"
+}

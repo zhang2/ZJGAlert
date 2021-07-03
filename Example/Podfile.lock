@@ -1,0 +1,16 @@
+PODS:
+  - ZJGAlert (0.1.0)
+
+DEPENDENCIES:
+  - ZJGAlert (from `../`)
+
+EXTERNAL SOURCES:
+  ZJGAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJGAlert: e3632ef61d68bca124c5fb8c128aeea0a0ffdc1a
+
+PODFILE CHECKSUM: 50d9146cc14e4406402d40b638a85b9090e168f9
+
+COCOAPODS: 1.10.1
