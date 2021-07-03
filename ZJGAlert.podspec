@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJGAlert'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of ZJGAlert.'
 
 
@@ -24,14 +24,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ZJGAlert/Classes/**/*'
-  s.public_header_files = "Classes/ZJGAlertHeader.h"  
+  s.public_header_files = "ZJGAlert/Classes/ZJGAlertHeader.h"
   s.requires_arc = true
   
   # s.resource_bundles = {
   #   'ZJGAlert' => ['ZJGAlert/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

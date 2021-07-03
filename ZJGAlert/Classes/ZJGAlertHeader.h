@@ -8,5 +8,6 @@
 #ifndef ZJGAlertHeader_h
 #define ZJGAlertHeader_h
 
+#import "DLEdgeInsetsButton.h"
 
 #endif /* ZJGAlertHeader_h */
