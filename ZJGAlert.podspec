@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJGAlert'
-  s.version          = '2.2.0'
+  s.version          = '3.2.0'
   s.summary          = 'A short description of ZJGAlert.'
 
 
