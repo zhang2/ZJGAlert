@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AlertVC.h"
 #import "ZJGAlertHeader.h"
 
 FOUNDATION_EXPORT double ZJGAlertVersionNumber;

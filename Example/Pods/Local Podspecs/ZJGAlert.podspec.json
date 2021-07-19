@@ -1,6 +1,6 @@
 {
   "name": "ZJGAlert",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "summary": "A short description of ZJGAlert.",
   "description": "common alert",
   "homepage": "https://github.com/zhang2/ZJGAlert",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhang2/ZJGAlert.git",
-    "tag": "2.0.0"
+    "tag": "2.1.0"
   },
   "platforms": {
     "ios": "9.0"

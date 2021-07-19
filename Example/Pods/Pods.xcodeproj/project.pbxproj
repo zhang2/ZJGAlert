@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14837DAF702CB0C61264C61B3C4DEBF2 /* ZJGAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800B3D7B126474E91510F35471BAB19 /* ZJGAlert-dummy.m */; };
-		203228CF26A5677B00845017 /* AlertVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 203228CD26A5677B00845017 /* AlertVC.h */; };
-		203228D026A5677B00845017 /* AlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 203228CE26A5677B00845017 /* AlertVC.m */; };
-		2A14C3C86CE78CDA5F472B42F8191DDA /* DLEdgeInsetsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C21366A6977425E3B9A5E87F252CC0F7 /* DLEdgeInsetsButton.m */; };
+		2CC8D230E56BDCB89FD9E9DE5514E78A /* ZJGAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8C53CB608DD81E494B1FFFD0219FE /* ZJGAlert-dummy.m */; };
 		2DDF2DC215456D9D92FF7496A3ADDDAD /* Pods-ZJGAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE9C748EB905635A7566151AA2475FA /* Pods-ZJGAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		413C93912D556E6E8DF1D25E4CEE746A /* DLEdgeInsetsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 59780CED9EBDFE6E5CF3F4127F37643A /* DLEdgeInsetsButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4AD05950DCF4B8E9CFE559B34792A940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E5EEA945A50E485AF7AFCCEAA68B37A /* AlertVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 485FE6E85652ECCAA5CA6339BCE7C67C /* AlertVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71134162FFEA1D59E58A2FED5B9F2C04 /* Pods-ZJGAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D0A968FC147E86E7254854E3A8F4E1 /* Pods-ZJGAlert_Example-dummy.m */; };
 		73B419B4C59738A9ADB3FEE491EB051B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		74A6BA6B2C436E27D9471AD4A88DB652 /* ZJGAlertHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E9432FF2416AEE5A46A7278B30C3A9AE /* ZJGAlertHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C09245876D38AF07D1CED61AC1E2E7 /* Pods-ZJGAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C33C20B18E5EB1DBE7C62D91CABF6E /* Pods-ZJGAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B44131490BDCBAB50814C352996C96 /* ZJGAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A9DAEE3291B464860AFF68EBD90AC0 /* ZJGAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3644D5D5D38F0925AF6E94D11E79D43 /* Pods-ZJGAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CBA07AEBB618D2504B476F9F61307C /* Pods-ZJGAlert_Tests-dummy.m */; };
-		E70DC99B5725AF0E3C63D7E08A8454AB /* ZJGAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0099B8E8D2FF6E3E41AD243686A539 /* ZJGAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F1091BC7F80C3063D1C81DA73AC6E9 /* AlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A933C6BDB303F10D9E4178B45384FF31 /* AlertVC.m */; };
+		EC7006A3853FFB9D65F517B233C637B1 /* ZJGAlertHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 749B865B9C4464F7B32E78CEFE9290DD /* ZJGAlertHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0ADFAFADBD788ABBE86435494102019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,43 +39,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019D8E3F9F29788F796C409B9798E5FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A2C01CC0D7B3784B9191C8F1E3CE96B /* ZJGAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJGAlert.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		115BEB98984CD1A986437FB529C4E490 /* Pods-ZJGAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJGAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		14385E9931C9F9A1F8EAD5870C1E17D4 /* ZJGAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJGAlert.debug.xcconfig; sourceTree = "<group>"; };
 		14D0A968FC147E86E7254854E3A8F4E1 /* Pods-ZJGAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJGAlert_Example-dummy.m"; sourceTree = "<group>"; };
-		17E8640EAD41AA051678E06351B7AEC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1800B3D7B126474E91510F35471BAB19 /* ZJGAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJGAlert-dummy.m"; sourceTree = "<group>"; };
-		203228CD26A5677B00845017 /* AlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlertVC.h; path = ZJGAlert/Classes/ZJGAlert/AlertVC/AlertVC.h; sourceTree = "<group>"; };
-		203228CE26A5677B00845017 /* AlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AlertVC.m; path = ZJGAlert/Classes/ZJGAlert/AlertVC/AlertVC.m; sourceTree = "<group>"; };
+		1EC2422DDE047D20A8CE80B490D6DFA0 /* ZJGAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJGAlert-prefix.pch"; sourceTree = "<group>"; };
 		24E085B1E3326D3851C3A153DF735586 /* Pods-ZJGAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJGAlert_Tests-Info.plist"; sourceTree = "<group>"; };
 		31B12B22EA97B761EAF394102A70B8F8 /* ZJGAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJGAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E8C53CB608DD81E494B1FFFD0219FE /* ZJGAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJGAlert-dummy.m"; sourceTree = "<group>"; };
 		3E1ECEFF15853A2E6DC665308996E4E3 /* Pods-ZJGAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJGAlert_Tests.modulemap"; sourceTree = "<group>"; };
-		458583CFEEAA0F4E48098F76F042A600 /* ZJGAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJGAlert-Info.plist"; sourceTree = "<group>"; };
+		41E505485983F44AF1D6C6745E035883 /* ZJGAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJGAlert.modulemap; sourceTree = "<group>"; };
+		485FE6E85652ECCAA5CA6339BCE7C67C /* AlertVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlertVC.h; sourceTree = "<group>"; };
 		4C8854DDA78E67D58662D83362FFDFFC /* Pods-ZJGAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJGAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F66FE9EE8E452270912CB61B7261073 /* ZJGAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJGAlert.release.xcconfig; sourceTree = "<group>"; };
-		59780CED9EBDFE6E5CF3F4127F37643A /* DLEdgeInsetsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLEdgeInsetsButton.h; sourceTree = "<group>"; };
+		57F1887D01C486B50D1ED9598A3813AD /* ZJGAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJGAlert.release.xcconfig; sourceTree = "<group>"; };
 		59FF7C06E17BD2458874C7340FB766BD /* Pods-ZJGAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJGAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7423F7E34C8A4C17EE9D8F2AC441C9BA /* Pods_ZJGAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJGAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749B865B9C4464F7B32E78CEFE9290DD /* ZJGAlertHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJGAlertHeader.h; path = ZJGAlert/Classes/ZJGAlert/ZJGAlertHeader.h; sourceTree = "<group>"; };
 		7E0A511E0F54635261AE802C662ED441 /* Pods-ZJGAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJGAlert_Example.modulemap"; sourceTree = "<group>"; };
+		81DE654FAFFCEE6FE72C1CAB180E8410 /* ZJGAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJGAlert-Info.plist"; sourceTree = "<group>"; };
+		8B5FC35D330BC0ACD948B8249754EEDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95BA3159397C0127C9B0404858AFA859 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96E8564EBE13619CCB2C40CABF5C7EF9 /* Pods-ZJGAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJGAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C85066AC9CFFA34F53411AC560CE066 /* Pods-ZJGAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJGAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1C33C20B18E5EB1DBE7C62D91CABF6E /* Pods-ZJGAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJGAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		BA2880DA330A335CD54ED379B5128623 /* ZJGAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJGAlert.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		C21366A6977425E3B9A5E87F252CC0F7 /* DLEdgeInsetsButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLEdgeInsetsButton.m; sourceTree = "<group>"; };
+		A8A9DAEE3291B464860AFF68EBD90AC0 /* ZJGAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJGAlert-umbrella.h"; sourceTree = "<group>"; };
+		A933C6BDB303F10D9E4178B45384FF31 /* AlertVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlertVC.m; sourceTree = "<group>"; };
 		C33C06F82BA110740E87CCB9BD0A3435 /* Pods-ZJGAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJGAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CAEF46791530689B1C9A9C67C8319C53 /* Pods-ZJGAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJGAlert_Example-Info.plist"; sourceTree = "<group>"; };
 		D1CBA07AEBB618D2504B476F9F61307C /* Pods-ZJGAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJGAlert_Tests-dummy.m"; sourceTree = "<group>"; };
 		D50E3752D5E8ED2CEAFB302E017EAD9C /* Pods-ZJGAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJGAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D91B940818E23F141B999CC117588C31 /* ZJGAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJGAlert.debug.xcconfig; sourceTree = "<group>"; };
 		D958470158B3BAFF0DACF200925D3854 /* Pods-ZJGAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJGAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9432FF2416AEE5A46A7278B30C3A9AE /* ZJGAlertHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJGAlertHeader.h; path = ZJGAlert/Classes/ZJGAlertHeader.h; sourceTree = "<group>"; };
 		EDE9C748EB905635A7566151AA2475FA /* Pods-ZJGAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJGAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EF0099B8E8D2FF6E3E41AD243686A539 /* ZJGAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJGAlert-umbrella.h"; sourceTree = "<group>"; };
 		F1F294BA0DDA74C36F43345D6C82DC39 /* Pods_ZJGAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJGAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B7FBAD0DB29F10BA0A895F5F58686A /* ZJGAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJGAlert.modulemap; sourceTree = "<group>"; };
 		F4DDA4F83458AE9E7764F645F8BE2FB1 /* Pods-ZJGAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJGAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD1901C44E5F28F0005A696CB0366FB5 /* ZJGAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJGAlert-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E841316B5E7B45C235CCDC761E929B2 /* ZJGAlert */ = {
+			isa = PBXGroup;
+			children = (
+				749B865B9C4464F7B32E78CEFE9290DD /* ZJGAlertHeader.h */,
+				68404C033870A2D07DED5106621332AC /* AlertVC */,
+				28C8C1193A9536DAEF1A9C139FCE8513 /* Pod */,
+				D71C64B7784FDEACA491AAD690E49B96 /* Support Files */,
+			);
+			name = ZJGAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		1ED62CF85C3A73F79CE299C34C85181E /* Pods-ZJGAlert_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,28 +132,14 @@
 			path = "Target Support Files/Pods-ZJGAlert_Tests";
 			sourceTree = "<group>";
 		};
-		35B9EB2F677030B67AED6F869A20E842 /* CustomButtom */ = {
+		28C8C1193A9536DAEF1A9C139FCE8513 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				59780CED9EBDFE6E5CF3F4127F37643A /* DLEdgeInsetsButton.h */,
-				C21366A6977425E3B9A5E87F252CC0F7 /* DLEdgeInsetsButton.m */,
+				8B5FC35D330BC0ACD948B8249754EEDE /* LICENSE */,
+				95BA3159397C0127C9B0404858AFA859 /* README.md */,
+				0A2C01CC0D7B3784B9191C8F1E3CE96B /* ZJGAlert.podspec */,
 			);
-			name = CustomButtom;
-			path = ZJGAlert/Classes/CustomButtom;
-			sourceTree = "<group>";
-		};
-		3CB9AE2A11C28865840426065E577278 /* ZJGAlert */ = {
-			isa = PBXGroup;
-			children = (
-				E9432FF2416AEE5A46A7278B30C3A9AE /* ZJGAlertHeader.h */,
-				35B9EB2F677030B67AED6F869A20E842 /* CustomButtom */,
-				60F63F19A50889F4CBAC074CFAF7644C /* Pod */,
-				8A97A0BEEA301547FB46DA02E5AA9D56 /* Support Files */,
-				203228CD26A5677B00845017 /* AlertVC.h */,
-				203228CE26A5677B00845017 /* AlertVC.m */,
-			);
-			name = ZJGAlert;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -156,29 +150,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60F63F19A50889F4CBAC074CFAF7644C /* Pod */ = {
+		68404C033870A2D07DED5106621332AC /* AlertVC */ = {
 			isa = PBXGroup;
 			children = (
-				019D8E3F9F29788F796C409B9798E5FE /* LICENSE */,
-				17E8640EAD41AA051678E06351B7AEC2 /* README.md */,
-				BA2880DA330A335CD54ED379B5128623 /* ZJGAlert.podspec */,
+				485FE6E85652ECCAA5CA6339BCE7C67C /* AlertVC.h */,
+				A933C6BDB303F10D9E4178B45384FF31 /* AlertVC.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8A97A0BEEA301547FB46DA02E5AA9D56 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2B7FBAD0DB29F10BA0A895F5F58686A /* ZJGAlert.modulemap */,
-				1800B3D7B126474E91510F35471BAB19 /* ZJGAlert-dummy.m */,
-				458583CFEEAA0F4E48098F76F042A600 /* ZJGAlert-Info.plist */,
-				FD1901C44E5F28F0005A696CB0366FB5 /* ZJGAlert-prefix.pch */,
-				EF0099B8E8D2FF6E3E41AD243686A539 /* ZJGAlert-umbrella.h */,
-				D91B940818E23F141B999CC117588C31 /* ZJGAlert.debug.xcconfig */,
-				4F66FE9EE8E452270912CB61B7261073 /* ZJGAlert.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJGAlert";
+			name = AlertVC;
+			path = ZJGAlert/Classes/ZJGAlert/AlertVC;
 			sourceTree = "<group>";
 		};
 		8CCFD359B00158FF1C6197E446FE0BF0 /* Targets Support Files */ = {
@@ -193,7 +172,7 @@
 		9BCB1FEF53893C8C621162803C09484F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CB9AE2A11C28865840426065E577278 /* ZJGAlert */,
+				1E841316B5E7B45C235CCDC761E929B2 /* ZJGAlert */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -225,6 +204,21 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71C64B7784FDEACA491AAD690E49B96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E505485983F44AF1D6C6745E035883 /* ZJGAlert.modulemap */,
+				35E8C53CB608DD81E494B1FFFD0219FE /* ZJGAlert-dummy.m */,
+				81DE654FAFFCEE6FE72C1CAB180E8410 /* ZJGAlert-Info.plist */,
+				1EC2422DDE047D20A8CE80B490D6DFA0 /* ZJGAlert-prefix.pch */,
+				A8A9DAEE3291B464860AFF68EBD90AC0 /* ZJGAlert-umbrella.h */,
+				14385E9931C9F9A1F8EAD5870C1E17D4 /* ZJGAlert.debug.xcconfig */,
+				57F1887D01C486B50D1ED9598A3813AD /* ZJGAlert.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJGAlert";
 			sourceTree = "<group>";
 		};
 		DA48448291E60042BE8EA5D13F630982 /* Pods-ZJGAlert_Example */ = {
@@ -263,14 +257,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3E688359FCB7B98B02027396F8BA5E3 /* Headers */ = {
+		75FBD335F2691E50872946D333412DF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203228CF26A5677B00845017 /* AlertVC.h in Headers */,
-				413C93912D556E6E8DF1D25E4CEE746A /* DLEdgeInsetsButton.h in Headers */,
-				E70DC99B5725AF0E3C63D7E08A8454AB /* ZJGAlert-umbrella.h in Headers */,
-				74A6BA6B2C436E27D9471AD4A88DB652 /* ZJGAlertHeader.h in Headers */,
+				4E5EEA945A50E485AF7AFCCEAA68B37A /* AlertVC.h in Headers */,
+				84B44131490BDCBAB50814C352996C96 /* ZJGAlert-umbrella.h in Headers */,
+				EC7006A3853FFB9D65F517B233C637B1 /* ZJGAlertHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +293,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07AD2454A7AD90E4B0495E9D25747016 /* Build configuration list for PBXNativeTarget "ZJGAlert" */;
 			buildPhases = (
-				D3E688359FCB7B98B02027396F8BA5E3 /* Headers */,
-				FB9D185D8A227EF4C25661B53F0A940E /* Sources */,
+				75FBD335F2691E50872946D333412DF2 /* Headers */,
+				5E28EEB9BEFDA9713158F413F98A99A9 /* Sources */,
 				0CAAD3512CD2C1B02AC93F2EF05F3516 /* Frameworks */,
 				DE971B89647D799034B8C5B2D2D409B8 /* Resources */,
 			);
@@ -395,21 +388,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E28EEB9BEFDA9713158F413F98A99A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F1091BC7F80C3063D1C81DA73AC6E9 /* AlertVC.m in Sources */,
+				2CC8D230E56BDCB89FD9E9DE5514E78A /* ZJGAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F185035F2612F681A8C6EF432ED6F3A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B3644D5D5D38F0925AF6E94D11E79D43 /* Pods-ZJGAlert_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB9D185D8A227EF4C25661B53F0A940E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				203228D026A5677B00845017 /* AlertVC.m in Sources */,
-				2A14C3C86CE78CDA5F472B42F8191DDA /* DLEdgeInsetsButton.m in Sources */,
-				14837DAF702CB0C61264C61B3C4DEBF2 /* ZJGAlert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +555,7 @@
 		};
 		B2A5D4E2F18267D56DBE9682B3A89617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F66FE9EE8E452270912CB61B7261073 /* ZJGAlert.release.xcconfig */;
+			baseConfigurationReference = 57F1887D01C486B50D1ED9598A3813AD /* ZJGAlert.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,7 +680,7 @@
 		};
 		DF8760C1F61ECEE8A3E80E54F6DD4ABC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D91B940818E23F141B999CC117588C31 /* ZJGAlert.debug.xcconfig */;
+			baseConfigurationReference = 14385E9931C9F9A1F8EAD5870C1E17D4 /* ZJGAlert.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
